@@ -72,7 +72,7 @@ body {
   }
   
   .mobile-menu-list a:hover {
-    color: rgb(66, 66, 190);
+    color: black;
   }
   
   .mobile-social {
@@ -615,8 +615,14 @@ h4 {
     .new-car {
        /* align-content: flex-start; */
        text-align: center;
+       margin-bottom: 40px;
     }
-    
+    .newest {
+        gap: 5px;
+    }
+    .new-car11 {
+        margin-top: 120px;
+    } 
 }
 @media (min-width: 866px) {
     .home {
